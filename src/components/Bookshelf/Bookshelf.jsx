@@ -14,6 +14,7 @@ return (
         <input type="text" name="title" value={newBook.title} onChange={handleInputChange}></input>
          <label>Author:</label>
          <input type="text" name="author" value={newBook.author} onChange={handleInputChange}></input>
+         <br/>
          <button type="submit">Add Book</button>
     </form>
     }
