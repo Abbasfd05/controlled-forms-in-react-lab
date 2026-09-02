@@ -26,6 +26,16 @@ input {
   justify-content: center;
   padding: 20px;
 }
+.formDiv button {
+    background-color: #6f42b5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+}
 
 .bookCardsDiv {
   display: flex;
@@ -109,6 +119,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
 }
+
 
 #root {
   width: 1126px;
